@@ -1,931 +1,417 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Rocky Web Designs | Professional Websites</title>
-
-  <meta
-    name="description"
-    content="Professional, modern and mobile-responsive websites for restaurants, salons, gyms, shops and small businesses."
-  >
-
-  <meta
-    name="keywords"
-    content="web design, website design, business website, restaurant website, salon website, gym website, Shankerpally web designer, Hyderabad web designer"
-  >
-
+  <meta name="description" content="Modern, professional and mobile-responsive websites for restaurants, salons, gyms and small businesses.">
   <meta name="author" content="Rocky Web Designs">
 
-  <!-- Google Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
-    rel="stylesheet"
-  >
-
-  <!-- Font Awesome -->
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-  >
-
-  <!-- Main CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <!-- ================= HEADER ================= -->
+<header class="header" id="header">
+  <nav class="navbar container">
+    <a href="#home" class="logo">Rocky<span>Web</span></a>
 
-  <header class="header" id="header">
+    <div class="nav-menu" id="nav-menu">
+      <a href="#home" class="nav-link">Home</a>
+      <a href="#services" class="nav-link">Services</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#pricing" class="nav-link">Pricing</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </div>
 
-    <nav class="navbar container">
+    <a href="https://wa.me/919652708761" class="nav-button" target="_blank">
+      <i class="fab fa-whatsapp"></i> Let's Talk
+    </a>
 
-      <a href="#home" class="logo">
-        Rocky<span>Web</span>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Open menu">
+      <i class="fas fa-bars"></i>
+    </button>
+  </nav>
+</header>
+
+<main>
+
+<!-- HERO -->
+<section class="hero section" id="home">
+  <div class="container hero-container">
+    <div class="hero-content reveal">
+      <span class="hero-small">
+        <i class="fas fa-code"></i> PROFESSIONAL WEB DESIGN
+      </span>
+
+      <h1>WE BUILD <span>DIGITAL</span> EXPERIENCES.</h1>
+
+      <p>Modern, professional and mobile-responsive websites designed to help your business stand out online.</p>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">View My Work <i class="fas fa-arrow-right"></i></a>
+        <a href="https://wa.me/919652708761" class="btn btn-outline" target="_blank">
+          <i class="fab fa-whatsapp"></i> Get A Website
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-visual reveal">
+      <div class="hero-card">
+        <div class="code-top"><span></span><span></span><span></span></div>
+        <div class="code-content">
+          <span class="code-tag">&lt;website&gt;</span>
+          <h3>Your Business.</h3>
+          <h3 class="cyan-text">Your Website.</h3>
+          <p>Your Digital Presence.</p>
+          <span class="code-tag">&lt;/website&gt;</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section class="stats-section">
+  <div class="container stats-grid">
+    <div class="stat reveal"><h3>03+</h3><p>Live Projects</p></div>
+    <div class="stat reveal"><h3>100%</h3><p>Responsive Design</p></div>
+    <div class="stat reveal"><h3>24/7</h3><p>Online Presence</p></div>
+    <div class="stat reveal"><h3>₹2999</h3><p>Starting Price</p></div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="section services" id="services">
+  <div class="container">
+    <div class="section-heading reveal">
+      <span class="section-label">WHAT I DO</span>
+      <h2>Website Solutions <span>For Your Business.</span></h2>
+      <p>Clean, modern and professional websites that help local businesses build a strong online presence.</p>
+    </div>
+
+    <div class="services-grid">
+      <article class="service-card reveal">
+        <div class="service-icon"><i class="fas fa-laptop-code"></i></div>
+        <h3>Business Websites</h3>
+        <p>Professional websites for small businesses, shops and local brands.</p>
+        <span class="service-number">01</span>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-icon"><i class="fas fa-utensils"></i></div>
+        <h3>Restaurant Websites</h3>
+        <p>Restaurant websites with menu, gallery, location and contact options.</p>
+        <span class="service-number">02</span>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-icon"><i class="fas fa-scissors"></i></div>
+        <h3>Salon Websites</h3>
+        <p>Premium websites to showcase salon services, pricing and bookings.</p>
+        <span class="service-number">03</span>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-icon"><i class="fas fa-dumbbell"></i></div>
+        <h3>Gym Websites</h3>
+        <p>Fitness websites with programs, membership plans and contact options.</p>
+        <span class="service-number">04</span>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-icon"><i class="fas fa-mobile-screen-button"></i></div>
+        <h3>Mobile Responsive</h3>
+        <p>Websites designed for phones, tablets and desktop devices.</p>
+        <span class="service-number">05</span>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-icon"><i class="fas fa-location-dot"></i></div>
+        <h3>Local Business</h3>
+        <p>Websites with WhatsApp, phone, maps and easy customer contact.</p>
+        <span class="service-number">06</span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="section projects" id="projects">
+  <div class="container">
+    <div class="section-heading reveal">
+      <span class="section-label">MY WORK</span>
+      <h2>Recent <span>Projects.</span></h2>
+      <p>A few demo websites created for different types of local businesses.</p>
+    </div>
+
+    <div class="projects-grid">
+
+      <!-- PISTA HOUSE -->
+      <article class="project-card reveal">
+        <div class="project-image">
+          <span class="project-badge">LIVE DEMO</span>
+
+          <img
+            src="./pista-house.png"
+            alt="Pista House Website Preview"
+            onerror="if(!this.dataset.tried){this.dataset.tried='yes';this.src='images/pista-house.png';}else{this.style.display='none';this.nextElementSibling.style.display='flex';}"
+          >
+
+          <div class="project-fallback" style="display:none">
+            <i class="fas fa-utensils"></i>
+            <strong>Pista House</strong>
+            <small>Restaurant Website</small>
+          </div>
+        </div>
+
+        <div class="project-info">
+          <span class="project-category">Restaurant Website • Shankerpally</span>
+          <h3>Pista House</h3>
+          <p>A modern restaurant website designed to showcase food, menu, gallery, location and easy customer contact.</p>
+
+          <div class="project-tags">
+            <span>Responsive</span><span>Modern UI</span><span>Menu</span><span>WhatsApp</span>
+          </div>
+
+          <a href="https://incomparable-baklava-a183c6.netlify.app/" class="project-link" target="_blank" rel="noopener noreferrer">
+            View Live Demo <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </article>
+
+      <!-- DWARKA SALON -->
+      <article class="project-card reveal">
+        <div class="project-image">
+          <span class="project-badge">LIVE DEMO</span>
+
+          <img
+            src="./dwarka-salon-preview.jpg"
+            alt="Dwarka Salon Website Preview"
+            onerror="if(!this.dataset.tried){this.dataset.tried='yes';this.src='images/dwarka-salon-preview.jpg';}else{this.style.display='none';this.nextElementSibling.style.display='flex';}"
+          >
+
+          <div class="project-fallback" style="display:none">
+            <i class="fas fa-scissors"></i>
+            <strong>Dwarka Salon</strong>
+            <small>Premium Salon Website</small>
+          </div>
+        </div>
+
+        <div class="project-info">
+          <span class="project-category">Salon Website • Shankerpally</span>
+          <h3>Dwarka Salon</h3>
+          <p>A premium salon website designed to showcase services, pricing, gallery and easy appointment booking.</p>
+
+          <div class="project-tags">
+            <span>Responsive</span><span>Premium UI</span><span>Services</span><span>Booking</span>
+          </div>
+
+          <a href="https://clever-taiyaki-7d1efe.netlify.app/" class="project-link" target="_blank" rel="noopener noreferrer">
+            View Live Demo <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </article>
+
+      <!-- POWERFIT GYM -->
+      <article class="project-card reveal">
+        <div class="project-image">
+          <span class="project-badge">LIVE DEMO</span>
+
+          <img
+            src="./gym-hero.jpg"
+            alt="PowerFit Gym Website Preview"
+            onerror="if(!this.dataset.tried){this.dataset.tried='yes';this.src='images/gym-hero.jpg';}else{this.style.display='none';this.nextElementSibling.style.display='flex';}"
+          >
+
+          <div class="project-fallback" style="display:none">
+            <i class="fas fa-dumbbell"></i>
+            <strong>PowerFit Gym</strong>
+            <small>Modern Gym Website</small>
+          </div>
+        </div>
+
+        <div class="project-info">
+          <span class="project-category">Gym Website • Fitness</span>
+          <h3>PowerFit Gym</h3>
+          <p>A modern fitness website designed for gyms, trainers and fitness centers with programs, pricing, gallery and contact options.</p>
+
+          <div class="project-tags">
+            <span>Responsive</span><span>Modern UI</span><span>Programs</span><span>Pricing</span>
+          </div>
+
+          <a href="https://storied-tulumba-9338d3.netlify.app/" class="project-link" target="_blank" rel="noopener noreferrer">
+            View Live Demo <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section about" id="about">
+  <div class="container about-grid">
+    <div class="about-visual reveal">
+      <div class="about-box">
+        <span class="about-symbol">&lt;/&gt;</span>
+        <h3>RockyWeb</h3>
+        <p>Building modern websites for modern businesses.</p>
+      </div>
+    </div>
+
+    <div class="about-content reveal">
+      <span class="section-label">ABOUT ME</span>
+      <h2>I Help Businesses <span>Go Online.</span></h2>
+      <p>Rocky Web Designs creates modern and professional websites for local businesses and small brands.</p>
+      <p>My goal is simple — create websites that look professional, work smoothly on mobile devices and make it easy for customers to contact your business.</p>
+
+      <div class="about-list">
+        <div><i class="fas fa-check"></i><span>Modern & Professional Design</span></div>
+        <div><i class="fas fa-check"></i><span>Mobile Responsive</span></div>
+        <div><i class="fas fa-check"></i><span>Fast & Simple User Experience</span></div>
+        <div><i class="fas fa-check"></i><span>WhatsApp & Contact Integration</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="section pricing" id="pricing">
+  <div class="container">
+    <div class="section-heading reveal">
+      <span class="section-label">SIMPLE PRICING</span>
+      <h2>Choose Your <span>Website.</span></h2>
+      <p>Affordable website packages for growing businesses.</p>
+    </div>
+
+    <div class="pricing-grid">
+      <article class="pricing-card reveal">
+        <div class="pricing-top">
+          <span class="pricing-label">BASIC</span>
+          <h3>₹2,999</h3>
+          <p>Perfect for getting started online.</p>
+        </div>
+
+        <ul class="pricing-list">
+          <li><i class="fas fa-check"></i> 1 Page Website</li>
+          <li><i class="fas fa-check"></i> Mobile Responsive</li>
+          <li><i class="fas fa-check"></i> WhatsApp Button</li>
+          <li><i class="fas fa-check"></i> Contact Section</li>
+          <li><i class="fas fa-check"></i> Modern Design</li>
+        </ul>
+
+        <a href="https://wa.me/919652708761?text=Hi%20Rocky%2C%20I%20am%20interested%20in%20the%20Basic%20Website%20Package." class="pricing-button" target="_blank">
+          Get Started <i class="fas fa-arrow-right"></i>
+        </a>
+      </article>
+
+      <article class="pricing-card featured reveal">
+        <span class="popular">POPULAR</span>
+        <div class="pricing-top">
+          <span class="pricing-label">PROFESSIONAL</span>
+          <h3>₹4,999</h3>
+          <p>For businesses that want a stronger online presence.</p>
+        </div>
+
+        <ul class="pricing-list">
+          <li><i class="fas fa-check"></i> 4–5 Sections</li>
+          <li><i class="fas fa-check"></i> Mobile Responsive</li>
+          <li><i class="fas fa-check"></i> WhatsApp Integration</li>
+          <li><i class="fas fa-check"></i> Contact & Location</li>
+          <li><i class="fas fa-check"></i> Gallery / Services</li>
+          <li><i class="fas fa-check"></i> Premium Modern Design</li>
+        </ul>
+
+        <a href="https://wa.me/919652708761?text=Hi%20Rocky%2C%20I%20am%20interested%20in%20the%20Professional%20Website%20Package." class="pricing-button" target="_blank">
+          Get Started <i class="fas fa-arrow-right"></i>
+        </a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="container">
+    <div class="cta-box reveal">
+      <div class="cta-content">
+        <span class="section-label">LET'S BUILD SOMETHING</span>
+        <h2>Ready To Build <span>Your Website?</span></h2>
+        <p>Give your business a professional online presence and make it easier for customers to find and contact you.</p>
+        <a href="https://wa.me/919652708761?text=Hi%20Rocky%2C%20I%20want%20to%20build%20a%20website%20for%20my%20business." class="btn btn-primary" target="_blank">
+          Start Your Project <i class="fab fa-whatsapp"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section contact" id="contact">
+  <div class="container">
+    <div class="section-heading reveal">
+      <span class="section-label">CONTACT</span>
+      <h2>LET'S WORK <span>TOGETHER.</span></h2>
+      <p>Have a business and need a website? Let's talk about your project.</p>
+    </div>
+
+    <div class="contact-grid">
+      <a href="https://wa.me/919652708761" class="contact-card reveal" target="_blank">
+        <div class="contact-icon"><i class="fab fa-whatsapp"></i></div>
+        <div><span>WhatsApp</span><strong>Chat With Me</strong></div>
+        <i class="fas fa-arrow-right contact-arrow"></i>
       </a>
 
-      <div class="nav-menu" id="nav-menu">
-
-        <a href="#home" class="nav-link">
-          Home
-        </a>
-
-        <a href="#services" class="nav-link">
-          Services
-        </a>
-
-        <a href="#projects" class="nav-link">
-          Projects
-        </a>
-
-        <a href="#about" class="nav-link">
-          About
-        </a>
-
-        <a href="#pricing" class="nav-link">
-          Pricing
-        </a>
-
-        <a href="#contact" class="nav-link">
-          Contact
-        </a>
-
-      </div>
-
-      <a
-        href="https://wa.me/919652708761"
-        class="nav-button"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i class="fab fa-whatsapp"></i>
-        Let's Talk
+      <a href="mailto:chennurrakesh9@gmail.com" class="contact-card reveal">
+        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+        <div><span>Email</span><strong>Send An Email</strong></div>
+        <i class="fas fa-arrow-right contact-arrow"></i>
       </a>
-
-      <button
-        class="menu-toggle"
-        id="menu-toggle"
-        aria-label="Open Menu"
-      >
-        <i class="fas fa-bars"></i>
-      </button>
-
-    </nav>
-
-  </header>
-
-
-  <!-- ================= MAIN ================= -->
-
-  <main>
-
-
-    <!-- ================= HERO ================= -->
-
-    <section class="hero section" id="home">
-
-      <div class="container hero-container">
-
-        <div class="hero-content reveal">
-
-          <span class="hero-small">
-            <i class="fas fa-code"></i>
-            PROFESSIONAL WEB DESIGN
-          </span>
-
-          <h1>
-            WE BUILD
-            <span>DIGITAL</span>
-            EXPERIENCES.
-          </h1>
-
-          <p>
-            Modern, professional and mobile-responsive
-            websites designed to help your business
-            stand out online.
-          </p>
-
-          <div class="hero-buttons">
-
-            <a href="#projects" class="btn btn-primary">
-              View My Work
-              <i class="fas fa-arrow-right"></i>
-            </a>
-
-            <a
-              href="https://wa.me/919652708761"
-              class="btn btn-outline"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i class="fab fa-whatsapp"></i>
-              Get A Website
-            </a>
-
-          </div>
-
-        </div>
-
-
-        <div class="hero-visual reveal">
-
-          <div class="hero-card">
-
-            <div class="code-top">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-
-            <div class="code-content">
-
-              <span class="code-tag">
-                &lt;website&gt;
-              </span>
-
-              <h3>
-                Your Business.
-              </h3>
-
-              <h3 class="cyan-text">
-                Your Website.
-              </h3>
-
-              <p>
-                Your Digital Presence.
-              </p>
-
-              <span class="code-tag">
-                &lt;/website&gt;
-              </span>
-
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-    <!-- ================= STATS ================= -->
-
-    <section class="stats-section">
-
-      <div class="container stats-grid">
-
-        <div class="stat reveal">
-          <h3>03+</h3>
-          <p>Live Projects</p>
-        </div>
-
-        <div class="stat reveal">
-          <h3>100%</h3>
-          <p>Responsive Design</p>
-        </div>
-
-        <div class="stat reveal">
-          <h3>24/7</h3>
-          <p>Online Presence</p>
-        </div>
-
-        <div class="stat reveal">
-          <h3>₹2999</h3>
-          <p>Starting Price</p>
-        </div>
-
-      </div>
-
-    </section>
-
-
-    <!-- ================= SERVICES ================= -->
-
-    <section class="section services" id="services">
-
-      <div class="container">
-
-        <div class="section-heading reveal">
-
-          <span class="section-label">
-            WHAT I DO
-          </span>
-
-          <h2>
-            Website Solutions
-            <span>For Your Business.</span>
-          </h2>
-
-          <p>
-            I create clean, modern and professional
-            websites that help local businesses build
-            a strong online presence.
-          </p>
-
-        </div>
-
-
-        <div class="services-grid">
-
-
-          <article class="service-card reveal">
-
-            <div class="service-icon">
-              <i class="fas fa-laptop-code"></i>
-            </div>
-
-            <h3>
-              Business Websites
-            </h3>
-
-            <p>
-              Professional websites for small businesses,
-              shops and local brands.
-            </p>
-
-            <span class="service-number">
-              01
-            </span>
-
-          </article>
-
-
-          <article class="service-card reveal">
-
-            <div class="service-icon">
-              <i class="fas fa-utensils"></i>
-            </div>
-
-            <h3>
-              Restaurant Websites
-            </h3>
-
-            <p>
-              Attractive restaurant websites with menu,
-              gallery, location and contact options.
-            </p>
-
-            <span class="service-number">
-              02
-            </span>
-
-          </article>
-
-
-          <article class="service-card reveal">
-
-            <div class="service-icon">
-              <i class="fas fa-scissors"></i>
-            </div>
-
-            <h3>
-              Salon Websites
-            </h3>
-
-            <p>
-              Premium salon websites to showcase
-              services, pricing, gallery and bookings.
-            </p>
-
-            <span class="service-number">
-              03
-            </span>
-
-          </article>
-
-
-          <article class="service-card reveal">
-
-            <div class="service-icon">
-              <i class="fas fa-dumbbell"></i>
-            </div>
-
-            <h3>
-              Gym Websites
-            </h3>
-
-            <p>
-              Modern fitness websites with programs,
-              membership plans and contact options.
-            </p>
-
-            <span class="service-number">
-              04
-            </span>
-
-          </article>
-
-
-          <article class="service-card reveal">
-
-            <div class="service-icon">
-              <i class="fas fa-mobile-screen-button"></i>
-            </div>
-
-            <h3>
-              Mobile Responsive
-            </h3>
-
-            <p>
-              Websites designed to look great on
-              mobile phones, tablets and desktops.
-            </p>
-
-            <span class="service-number">
-              05
-            </span>
-
-          </article>
-
-
-          <article class="service-card reveal">
-
-            <div class="service-icon">
-              <i class="fas fa-location-dot"></i>
-            </div>
-
-            <h3>
-              Local Business
-            </h3>
-
-            <p>
-              Websites with WhatsApp, phone, maps
-              and easy customer contact options.
-            </p>
-
-            <span class="service-number">
-              06
-            </span>
-
-          </article>
-
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-    <!-- ================= PROJECTS ================= -->
-
-    <section class="section projects" id="projects">
-
-      <div class="container">
-
-        <div class="section-heading reveal">
-
-          <span class="section-label">
-            MY WORK
-          </span>
-
-          <h2>
-            Recent
-            <span>Projects.</span>
-          </h2>
-
-          <p>
-            A few demo websites created for different
-            types of local businesses.
-          </p>
-
-        </div>
-
-
-        <div class="projects-grid">
-
-
-          <!-- ================= PISTA HOUSE ================= -->
-
-          <article class="project-card reveal">
-
-            <div class="project-image">
-
-              <span class="project-badge">
-                LIVE DEMO
-              </span>
-
-              <img
-                src="images/pista-house.png"
-                alt="Pista House Restaurant Website Preview"
-                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
-              >
-
-              <div class="project-fallback">
-
-                <i class="fas fa-utensils"></i>
-
-                <strong>
-                  Pista House
-                </strong>
-
-                <small>
-                  Restaurant Website
-                </small>
-
-              </div>
-
-            </div>
-
-
-            <div class="project-info">
-
-              <span class="project-category">
-                Restaurant Website • Shankerpally
-              </span>
-
-              <h3>
-                Pista House
-              </h3>
-
-              <p>
-                A modern restaurant website designed
-                to showcase food, menu, gallery,
-                location and easy customer contact.
-              </p>
-
-              <div class="project-tags">
-
-                <span>Responsive</span>
-                <span>Modern UI</span>
-                <span>Menu</span>
-                <span>WhatsApp</span>
-
-              </div>
-
-              <a
-                href="https://incomparable-baklava-a183c6.netlify.app/"
-                class="project-link"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                View Live Demo
-                <i class="fas fa-arrow-right"></i>
-              </a>
-
-            </div>
-
-          </article>
-
-
-          <!-- ================= DWARKA SALON ================= -->
-
-          <article class="project-card reveal">
-
-            <div class="project-image">
-
-              <span class="project-badge">
-                LIVE DEMO
-              </span>
-
-              <img
-                src="images/dwarka-salon-preview.jpg"
-                alt="Dwarka Salon Website Preview"
-                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
-              >
-
-              <div class="project-fallback">
-
-                <i class="fas fa-scissors"></i>
-
-                <strong>
-                  Dwarka Salon
-                </strong>
-
-                <small>
-                  Premium Salon Website
-                </small>
-
-              </div>
-
-            </div>
-
-
-            <div class="project-info">
-
-              <span class="project-category">
-                Salon Website • Shankerpally
-              </span>
-
-              <h3>
-                Dwarka Salon
-              </h3>
-
-              <p>
-                A premium salon website designed to
-                showcase services, pricing, gallery
-                and easy appointment booking.
-              </p>
-
-              <div class="project-tags">
-
-                <span>Responsive</span>
-                <span>Premium UI</span>
-                <span>Services</span>
-                <span>Booking</span>
-
-              </div>
-
-              <a
-                href="https://clever-taiyaki-7d1efe.netlify.app/"
-                class="project-link"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                View Live Demo
-                <i class="fas fa-arrow-right"></i>
-              </a>
-
-            </div>
-
-          </article>
-
-
-          <!-- ================= POWERFIT GYM ================= -->
-
-          <article class="project-card reveal">
-
-            <div class="project-image">
-
-              <span class="project-badge">
-                LIVE DEMO
-              </span>
-
-              <img
-                src="images/gym-hero.jpg"
-                alt="PowerFit Gym Website Preview"
-                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
-              >
-
-              <div class="project-fallback">
-
-                <i class="fas fa-dumbbell"></i>
-
-                <strong>
-                  PowerFit Gym
-                </strong>
-
-                <small>
-                  Modern Gym Website
-                </small>
-
-              </div>
-
-            </div>
-
-
-            <div class="project-info">
-
-              <span class="project-category">
-                Gym Website • Fitness
-              </span>
-
-              <h3>
-                PowerFit Gym
-              </h3>
-
-              <p>
-                A modern fitness website designed for
-                gyms, trainers and fitness centers with
-                programs, pricing, gallery and contact
-                options.
-              </p>
-
-              <div class="project-tags">
-
-                <span>Responsive</span>
-                <span>Modern UI</span>
-                <span>Programs</span>
-                <span>Pricing</span>
-
-              </div>
-
-              <a
-                href="https://storied-tulumba-9338d3.netlify.app/"
-                class="project-link"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                View Live Demo
-                <i class="fas fa-arrow-right"></i>
-              </a>
-
-            </div>
-
-          </article>
-
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-    <!-- ================= ABOUT ================= -->
-
-    <section class="section about" id="about">
-
-      <div class="container about-grid">
-
-
-        <div class="about-visual reveal">
-
-          <div class="about-box">
-
-            <span class="about-symbol">
-              &lt;/&gt;
-            </span>
-
-            <h3>
-              RockyWeb
-            </h3>
-
-            <p>
-              Building modern websites
-              for modern businesses.
-            </p>
-
-          </div>
-
-        </div>
-
-
-        <div class="about-content reveal">
-
-          <span class="section-label">
-            ABOUT ME
-          </span>
-
-          <h2>
-            I Help Businesses
-            <span>Go Online.</span>
-          </h2>
-
-          <p>
-            Rocky Web Designs creates modern and
-            professional websites for local businesses
-            and small brands.
-          </p>
-
-          <p>
-            My goal is simple — create websites that
-            look professional, work smoothly on mobile
-            devices and make it easy for customers
-            to contact your business.
-          </p>
-
-
-          <div class="about-list">
-
-            <div>
-              <i class="fas fa-check"></i>
-              <span>Modern & Professional Design</span>
-            </div>
-
-            <div>
-              <i class="fas fa-check"></i>
-              <span>Mobile Responsive</span>
-            </div>
-
-            <div>
-              <i class="fas fa-check"></i>
-              <span>Fast & Simple User Experience</span>
-            </div>
-
-            <div>
-              <i class="fas fa-check"></i>
-              <span>WhatsApp & Contact Integration</span>
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-    <!-- ================= PRICING ================= -->
-
-    <section class="section pricing" id="pricing">
-
-      <div class="container">
-
-        <div class="section-heading reveal">
-
-          <span class="section-label">
-            SIMPLE PRICING
-          </span>
-
-          <h2>
-            Choose Your
-            <span>Website.</span>
-          </h2>
-
-          <p>
-            Affordable website packages for
-            growing businesses.
-          </p>
-
-        </div>
-
-
-        <div class="pricing-grid">
-
-
-          <!-- BASIC -->
-
-          <article class="pricing-card reveal">
-
-            <div class="pricing-top">
-
-              <span class="pricing-label">
-                BASIC
-              </span>
-
-              <h3>
-                ₹2,999
-              </h3>
-
-              <p>
-                Perfect for getting started online.
-              </p>
-
-            </div>
-
-
-            <ul class="pricing-list">
-
-              <li>
-                <i class="fas fa-check"></i>
-                1 Page Website
-              </li>
-
-              <li>
-                <i class="fas fa-check"></i>
-                Mobile Responsive
-              </li>
-
-              <li>
-                <i class="fas fa-check"></i>
-                WhatsApp Button
-              </li>
-
-              <li>
-                <i class="fas fa-check"></i>
-                Contact Section
-              </li>
-
-              <li>
-                <i class="fas fa-check"></i>
-                Modern Design
-              </li>
-
-            </ul>
-
-
-            <a
-              href="https://wa.me/919652708761?text=Hi%20Rocky%2C%20I%20am%20interested%20in%20the%20Basic%20Website%20Package."
-              class="pricing-button"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Get Started
-              <i class="fas fa-arrow-right"></i>
-            </a>
-
-          </article>
-
-
-          <!-- PROFESSIONAL -->
-
-          <article class="pricing-card featured reveal">
-
-            <span class="popular">
-              POPULAR
-            </span>
-
-            <div class="pricing-top">
-
-              <span class="pricing-label">
-                PROFESSIONAL
-              </span>
-
-              <h3>
-                ₹4,999
-              </h3>
-
-              <p>
-                For businesses that want a stronger
-                online presence.
-              </p>
-
-            </div>
-
-
-            <ul class="pricing-list">
-
-              <li>
-                <i class="fas fa-check"></i>
-                4–5 Sections
-              </li>
-
-              <li>
-                <i class="fas fa-check"></i>
-                Mobile Responsive
-              </li>
-
-              <li>
-                <i class="fas fa-check"></i>
-                WhatsApp Integration
-              </li>
-
-              <li>
-                <i class="fas fa-check"></i>
-                Contact & Location
-              </li>
-
-              <li>
-                <i class="fas fa-check"></i>
-                Gallery / Services
-              </li>
-
-              <li>
-                <i class="fas fa-check"></i>
-                Premium Modern Design
-              </li>
-
-            </ul>
-
-
-            <a
-              href="https://wa.me/919652708761?text=Hi%20Rocky%2C%20I%20am%20interested%20in%20the%20Professional%20Website%20Package."
-              class="pricing-button"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Get Started
-              <i class="fas fa-arrow-right"></i>
-            </a>
-
-          </article>
-
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-    <!-- ================= CTA ================= -->
-
-    <section class="cta-section">
-
-      <div class="container">
-
-        <div class="cta-box reveal">
-
-          <div class="cta-content">
-
-            <span class="section-label">
-              LET'S BUILD SOMETHING
-            </span>
-
-            <h2>
-              Ready To Build
-              <span>Your Website?</span>
-            </h2>
-
-            <p>
-              
+    </div>
+  </div>
+</section>
+
+</main>
+
+<a href="https://wa.me/919652708761" class="floating-whatsapp" target="_blank" aria-label="Chat on WhatsApp">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+<footer class="footer">
+  <div class="container footer-content">
+    <div class="footer-brand">
+      <a href="#home" class="logo">Rocky<span>Web</span></a>
+      <p>Professional Web Design for Modern Businesses.</p>
+    </div>
+
+    <div class="footer-links">
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="footer-social">
+      <a href="https://wa.me/919652708761" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+      <a href="mailto:chennurrakesh9@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© <span id="year">2026</span> Rocky Web Designs. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
