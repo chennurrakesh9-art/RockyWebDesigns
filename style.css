@@ -1583,3 +1583,24 @@ img {
     object-fit: cover;
     object-position: center;
 }
+
+/* PROJECT TAGS SPACING FIX */
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+.project-tags span {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 10px;
+  margin: 0;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 217, 255, 0.25);
+  font-size: 11px;
+  line-height: 1.4;
+  white-space: nowrap;
+}
